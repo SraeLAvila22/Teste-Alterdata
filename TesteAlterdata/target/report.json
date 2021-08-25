@@ -1,0 +1,92 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Fazer login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8139613100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu esteja no site \"file:///C:/Users/JU/Desktop/Login/Sistema/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"file:///C:/Users/JU/Desktop/Login/Sistema/index.html\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.FazerLoginTeste.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-24T23:16:21.507Z",
+        "line": 11,
+        "name": "CT01 - Fazer login com dados validos",
+        "description": "",
+        "id": "fazer-login;ct01---fazer-login-com-dados-validos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 381057300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informar os dados de login validos",
+            "match": {
+              "location": "steps.FazerLoginTeste.informar_os_dados_de_login_validos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3591169600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "login realizado com sucesso",
+            "match": {
+              "location": "steps.FazerLoginTeste.login_realizado_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@RunCT01"
+          }
+        ]
+      }
+    ],
+    "name": "Fazer login",
+    "description": "  Eu como usuario quero fazer login para acessar os meus dados",
+    "id": "fazer-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fazerLogin.feature",
+    "tags": [
+      {
+        "name": "@RunAll",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
